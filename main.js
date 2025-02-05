@@ -11,7 +11,7 @@ class Veiculo{
     }
 }
 
-// Classe Carro herdadada de Veiculo
+// Classe Carro herdada de Veiculo
 class Carro extends Veiculo{
     constructor(tipo, marca, modelo, ano, portas){
         super(tipo, marca, modelo, ano);
@@ -22,7 +22,7 @@ class Carro extends Veiculo{
     }
 }
 
-// Classe Moto herdadada de Veiculo
+// Classe Moto herdada de Veiculo
 class Moto extends Veiculo{
     constructor(tipo, marca, modelo, ano, cilindradas){
         super(tipo, marca, modelo, ano);
